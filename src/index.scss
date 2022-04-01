@@ -66,6 +66,7 @@
     &-image {
       width: 100%;
       height: auto;
+      border-radius: 8px;
       @media (min-width: 992px) {
         margin-right: 32px;
         max-width: 326px;
