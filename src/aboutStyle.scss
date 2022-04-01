@@ -1,21 +1,32 @@
 @import "./_variables";
 
+* {
+  scroll-behavior: smooth;
+}
+
 .header-content {
   display: flex;
   flex-direction: column;
   padding: 93px 16px 0 16px;
 
-  //   @media (min-width: 992px) {
-  //     flex-direction: row;
-  //     padding: 133px 117px 0px 142px;
-  //     justify-content: space-between;
-  //   }
+  @media (min-width: 992px) {
+    flex-direction: row;
+    padding: 133px 117px 0px 142px;
+    justify-content: space-between;
+  }
+
+  &-container {
+    @media (min-width: 992px) {
+      max-width: 568px;
+    }
+  }
 
   &-my-img {
     border-radius: 8px;
     width: 100%;
     max-width: 401px;
   }
+
   &-name {
     font-weight: 500;
     font-size: 34px;
@@ -24,6 +35,14 @@
     color: white;
     margin-top: 24px;
     margin-bottom: 0;
+    @media (min-width: 992px) {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 71px;
+      letter-spacing: -0.5px;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
   }
 
   &-description {
@@ -55,17 +74,41 @@
     text-align: center;
     margin-top: 24px;
     margin-bottom: 32px;
+    @media (min-width: 992px) {
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 40px;
+      letter-spacing: 0.25px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    margin-top: 128px;
   }
 }
 
 .skills-container {
+  display: flex;
+  flex-direction: column;
   padding-right: 15px;
   padding-left: 15px;
+  @media (min-width: 992px) {
+    flex-direction: row;
+    padding: 60px 133px 0px 165px;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
 
   &-box {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    @media (min-width: 992px) {
+      padding: 24px 34px 24px 24px;
+      max-width: 364px;
+    }
 
     &-title {
       font-weight: 500;
@@ -75,6 +118,11 @@
       color: white;
       margin-top: 10px;
       margin-bottom: 0;
+      @media (min-width: 992px) {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.25px;
+      }
     }
     &-description {
       font-weight: 400;
@@ -84,6 +132,11 @@
       color: white;
       margin-top: 10px;
       margin-bottom: 0;
+      @media (min-width: 992px) {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.44px;
+      }
     }
   }
 }

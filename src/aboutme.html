@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar">
             <div class="container flex align-center justify-between">
                 <svg width="83" height="17" viewBox="0 0 83 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,9 +24,9 @@
                 </svg>
 
                 <div class="navbar-links">
-                    <a class="navbar-link" href="">Início</a>
-                    <a class="navbar-link" href="./aboutme.html">Sobre mim</a>
-                    <a class="navbar-link" href="">Contato</a>
+                    <a class="navbar-link" href="./index.html">Início</a>
+                    <a class="navbar-link" href="#header">Sobre mim</a>
+                    <a class="navbar-link" href="#footer">Contato</a>
                 </div>
 
                 <button class="burguer-button">
@@ -40,7 +40,7 @@
 
         <div class="header-content">
             <img class="header-content-my-img" src="./images/pedro-img.png" alt="">
-            <div>
+            <div class="header-content-container">
                 <h1 class="header-content-name">Luís Pedro Piúma</h1>
                 <p class="header-content-description">
                     Gosto de aprender novas tecnologias e no momento estou focado em desenvolver meu conhecimento de
@@ -147,7 +147,7 @@
 
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-content">
                 <svg width="83" height="17" viewBox="0 0 83 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,7 +157,7 @@
                 </svg>
                 <div class="footer-column">
                     <p class="footer-column-name">Início</p>
-                    <a class="footer-column-link" href="./aboutme.html">Sobre mim</a>
+                    <a class="footer-column-link" href="#header">Sobre mim</a>
                 </div>
                 <div class="footer-column">
                     <p class="footer-column-name">Contato</p>
@@ -165,8 +165,9 @@
                 </div>
                 <div class="footer-column">
                     <p class="footer-column-name">Social</p>
-                    <a class="footer-column-link" href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                    <a class="footer-column-link"
+                        href="https://www.linkedin.com/in/lu%C3%ADs-pedro-pi%C3%BAma-90b8a212b/" target="_blank"><svg
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.5706 1.69637V21.3742C23.5706 21.8241 23.3919 22.2556 23.0737 22.5737C22.7556 22.8919 22.3241 23.0706 21.8742 23.0706H2.19637C1.74646 23.0706 1.31499 22.8919 0.996855 22.5737C0.678724 22.2556 0.5 21.8241 0.5 21.3742L0.5 1.69637C0.5 1.24646 0.678724 0.814985 0.996855 0.496855C1.31499 0.178724 1.74646 0 2.19637 0L21.8742 0C22.3241 0 22.7556 0.178724 23.0737 0.496855C23.3919 0.814985 23.5706 1.24646 23.5706 1.69637ZM7.28547 8.82111H3.89273V19.6779H7.28547V8.82111ZM7.59082 5.0891C7.5926 4.83247 7.54383 4.578 7.44727 4.34022C7.35071 4.10244 7.20826 3.886 7.02805 3.70327C6.84784 3.52055 6.63341 3.37511 6.39699 3.27525C6.16057 3.1754 5.9068 3.12309 5.65017 3.12132H5.5891C5.06721 3.12132 4.5667 3.32864 4.19767 3.69767C3.82864 4.0667 3.62132 4.56721 3.62132 5.0891C3.62132 5.61099 3.82864 6.11151 4.19767 6.48054C4.5667 6.84957 5.06721 7.05689 5.5891 7.05689C5.84575 7.0632 6.10113 7.01888 6.34065 6.92647C6.58017 6.83405 6.79913 6.69534 6.98502 6.51827C7.17091 6.3412 7.32009 6.12924 7.42404 5.8945C7.52798 5.65975 7.58465 5.40683 7.59082 5.15017V5.0891ZM20.1779 13.0824C20.1779 9.81858 18.1015 8.54969 16.0387 8.54969C15.3633 8.51587 14.6909 8.65973 14.0884 8.9669C13.486 9.27408 12.9746 9.73385 12.6053 10.3003H12.5103V8.82111H9.32111V19.6779H12.7138V13.9034C12.6648 13.312 12.8511 12.7252 13.2322 12.2703C13.6134 11.8155 14.1586 11.5294 14.7495 11.4742H14.8784C15.9573 11.4742 16.758 12.1528 16.758 13.8627V19.6779H20.1507L20.1779 13.0824Z"
                                 fill="white" />
