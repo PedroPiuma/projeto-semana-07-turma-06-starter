@@ -60,7 +60,8 @@ button {
   }
 
   @media (min-width: 992px) {
-    .burguer-button {
+    .burguer-button,
+    .form-burguer-button {
       display: none;
     }
   }
@@ -173,4 +174,29 @@ button {
 
 .align-center {
   align-items: center;
+}
+
+.menu-mobile {
+  width: 110px;
+  height: 153px;
+  margin-top: 81px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &-link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    align-items: center;
+    color: white;
+  }
+}
+
+#button-cv {
+  margin-left: 12px;
+  @media (min-width: 992px) {
+    margin-left: 0;
+  }
 }
