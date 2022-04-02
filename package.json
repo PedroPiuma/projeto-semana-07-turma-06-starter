@@ -1,7 +1,7 @@
 {
   "name": "estudo-de-caso",
   "scripts": {
-    "start": "parcel ./src/*.html",
+    "start": "parcel src/*.html",
     "build": "parcel src/index.html"
   },
   "version": "1.0.0",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.4.0",
-    "parcel": "^2.4.0"
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
   }
 }
