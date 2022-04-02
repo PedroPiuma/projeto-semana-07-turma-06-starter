@@ -9,6 +9,7 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
     "parcel": "^2.4.0"
