@@ -4,7 +4,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "parcel src/*.html",
     "build": "parcel src/index.html"
   },
   "version": "1.0.0",
