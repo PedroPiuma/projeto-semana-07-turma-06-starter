@@ -3,8 +3,7 @@
   "homepage": "https://pedropiuma.github.io/projeto-semana-07-turma-06-starter/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "parcel src/*.html",
+    "deploy": "gh-pages -d dist",
     "build": "parcel src/index.html"
   },
   "version": "1.0.0",
