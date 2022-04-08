@@ -199,3 +199,28 @@ button {
     margin-left: 0;
   }
 }
+
+.menu-burguer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  padding: 0;
+}
+
+.menu-burguer-navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 58px;
+  left: 0;
+  bottom: 0;
+  width: 100vh;
+  background-color: #171718;
+  padding-top: 28.5px;
+  padding-left: 16px;
+  gap: 40px;
+}
+
+.display-none {
+  display: none;
+}
