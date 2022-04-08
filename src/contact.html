@@ -27,15 +27,18 @@
                         <a class="navbar-link" href="#header">Contato</a>
                     </div>
 
-                    <form class="form-burguer-button" action="./menu-mobile.html" method="get">
-                        <button class="burguer-button">
-                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1H17M1 7H17M10 13H17" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </form>
+                    <button class="burguer-button">
+                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1H17M1 7H17M10 13H17" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="burguer-button-close" hidden>
+                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 6.12305L17 18.123L14.5 15.623L12 13.123M5 18.123L17 5.87695" stroke="white"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
             </nav>
         </header>
@@ -52,7 +55,7 @@
                 <input class="section-contact-form-input" type="email" name="email"
                     placeholder="meu.email@gmail.com"><br>
                 <label class="section-contact-form-label" for="mensage">Mensagem</label><br>
-                <textarea class="section-contact-form-input" name="mensage" cols="30" rows="10"
+                <textarea id="textarea" class="section-contact-form-input" name="mensage" cols="30" rows="10"
                     placeholder="Olá..."></textarea>
                 <button class="section-contact-form-button">Enviar</button>
             </form>
@@ -94,6 +97,7 @@
         </footer>
 
         <script type="module" src="./scripts/contact.js"></script>
+        <script type="module" src="./scripts/hambuguer.js"></script>
     </main>
 </body>
 

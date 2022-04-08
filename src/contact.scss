@@ -1,5 +1,9 @@
 @import "./_variables";
 
+#textarea {
+  resize: none;
+}
+
 .section-contact {
   padding: 0 16px;
   margin-bottom: 64px;
