@@ -14,6 +14,7 @@ window.onload = () => {
             email: email.value,
             mensage: mensage.value
         }
+        console.log(data)
         alert('Formulário enviado com sucesso!')
     })
 }
