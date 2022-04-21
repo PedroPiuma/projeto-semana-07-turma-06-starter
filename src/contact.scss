@@ -1,0 +1,95 @@
+@import "./_variables";
+
+#textarea {
+  resize: none;
+}
+
+.section-contact {
+  padding: 0 16px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 992px) {
+    margin-bottom: 128px;
+  }
+  &-description {
+    margin-top: 93px;
+    text-align: center;
+    @media (min-width: 992px) {
+      margin-top: 133px;
+    }
+    &-title {
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 40px;
+      letter-spacing: 0.25px;
+      color: #ffffff;
+      margin: 0;
+      @media (min-width: 992px) {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 71px;
+        letter-spacing: -0.5px;
+      }
+    }
+    &-paragraph {
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      margin-top: 16px;
+      margin-bottom: 0;
+      @media (min-width: 992px) {
+        line-height: 20px;
+        letter-spacing: 0.15px;
+      }
+    }
+  }
+
+  &-form {
+    padding: 24px;
+    background-color: $grayColor;
+    border-radius: 8px;
+    margin: 24px 0 0 0;
+    max-width: 447px;
+    @media (min-width: 992px) {
+      margin-top: 44px;
+    }
+    &-label {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.44px;
+      color: #ffffff;
+    }
+    &-input {
+      background-color: $colorRellenos;
+      margin-top: 8px;
+      margin-bottom: 24px;
+      padding: 16px 0 16px 20px;
+      border-radius: 8px;
+      border: 1px solid #a0a0a1;
+      min-width: 280px;
+      max-width: 399px;
+      width: 100%;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.44px;
+    }
+    &-button {
+      border-radius: 8px;
+      padding: 16px 0;
+      background-color: $primaryColor;
+      min-width: 280px;
+      max-width: 399px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      color: #ffffff;
+    }
+  }
+}
